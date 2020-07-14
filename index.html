@@ -13,15 +13,29 @@
         </div>
         <form id="survey-form">
             <label for="name" id="name-label">Please enter your name:</label>
-            <input name="name" id="name" type="text" placeholder="Name" required />
+            <input name="name" id="name" type="text" placeholder="Name" required /><br />
             <label for="email" id="email-label">Please enter your email:</label>
-            <input name="email" type="email" id="email" placeholder="Email" required />
+            <input name="email" type="email" id="email" placeholder="Email" required /> <br />
             <label for="number" id="number-label">Please enter a number:</label>
-            <input type="number" id="number" name="number" min="3" max="13" />
-            <option id="dropdown">
-                
-            </option>
-            <input type="radio" name="">
+            <input type="number" id="number" name="number" min="3" max="13" /> <br />
+            <label for="dropdown">Drink of choice while coding:</label>
+            <select id="dropdown" name="dropdown">
+                <option value="coffee">Coffee</option>
+                <option value="tea">Tea</option>
+                <option value="energydrink">Energy Drink</option>
+            </select>
+            <p>What type of music do you listen to:</p>
+            <label for="edm">EDM</label>
+            <input id="edm" type="radio" name="music" value="edm" /><br />
+            <label for="edm">Rap</label>
+            <input type="radio" name="music" id="rap" value="rap" /><br />
+            <label for="alt">Alternative</label>
+            <input type="radio" name="music" id="alt" value="alt" /><br />
+            <label for="country">Country</label>
+            <input type="radio" name="music" id="country" value="country" /><br />
+            <label for="other">Other</label>
+            <input type="radio" name="music" id="other" value="other" /><br />
+            <br /><input id="submit" type="submit" value="Submit" />
         </form>
     </div>
 </body>
