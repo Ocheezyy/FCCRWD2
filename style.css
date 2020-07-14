@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-style: monospace;
+    background-color: #ffff;
+    text-align: center;
+}
